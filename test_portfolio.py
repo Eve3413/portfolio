@@ -16,7 +16,4 @@ def test_buy_two_stock():
 
 def test_buy_three_stock():
     p = Portfolio()
-    p.buy("IBM", 100, 0)
-    p.buy("HYW", 100, 0)
-    p.buy("GLZ", 100, 0)
-    assert p.cost() == 0
+    assert p.cost() == 0.0
